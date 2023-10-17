@@ -12,8 +12,7 @@
         - 256 bit khóa K
         - 32 bit tham số bộ đếm Ctr
         - 96 bit nonce N
-    - Thực hiện 20 vòng lặp luân phiên thực thi các biến đổi dịch vòng cột (column round) theo hình ``2.b``
-    - Dịch vòng chéo(diagonal round) theo hình ``2.c``
+    - Thực hiện 20 vòng lặp luân phiên thực thi các biến đổi dịch vòng cột (column round) theo hình ``2.b``, dịch vòng chéo(diagonal round) theo hình ``2.c``
     - Hai phép biến đổi dịch vòng này được thực thi chỉ nhờ một phép biến đổi QUARTERROUND (dịch vòng chéo hay cột dựa trên chỉ số đầu vào cho hàm QUARTERROUND) theo Hình 3.
  ![image](https://github.com/piropatriot/ChaCha20/assets/127461439/66db98cf-8910-4acd-81a3-e514c9a6ec5a)
 
